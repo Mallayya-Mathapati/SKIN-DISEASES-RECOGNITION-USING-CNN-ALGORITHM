@@ -1,0 +1,80 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-family: "Roboto", sans-serif;
+  }
+  h2 ,p {
+    color: #000000;
+    background-color: #bcd3d3;
+  }
+  .btn {
+    cursor: pointer;
+    background-color: #4dc4c6;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  .card {
+    width: 24rem;
+    height: 36rem;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    color: #f0f0f0;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+  }
+  .card-col {
+    width: 10rem;
+    height: 6rem;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    color: #f0f0f0;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-right: 10px;
+  }
+  ul{
+    list-style-type:none;
+  }
+  li{
+    display: inline-block;
+  }
+  .card-col img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    transition: opacity 0.2s ease-out;
+  }
+  
+  .text-ul{
+    font-size: 10px;
+    position: absolute;
+    bottom: 2px;
+    left: 30px;
+    cursor: pointer;
+    background-color: #4dc4c6;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+  }
+
+  
+  
+ 
+  
+  .material-symbols-outlined {
+    vertical-align: middle;
+  }
