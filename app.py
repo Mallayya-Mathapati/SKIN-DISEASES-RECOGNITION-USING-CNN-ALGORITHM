@@ -118,7 +118,6 @@ def get_output():
 
 	return render_template("report_card.html", prediction = p, img_path = img_path,data=user_data)
 
-
-#if __name__ =='__main__':
+if __name__ =='__main__':
 	#app.debug = True
-	#app.run(debug = True)
+	app.run(debug = True)
